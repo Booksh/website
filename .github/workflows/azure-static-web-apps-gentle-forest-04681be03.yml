@@ -3,7 +3,7 @@ name: Azure Static Web Apps CI/CD
 on:
   push:
     branches:
-      - production
+      - main
     paths:
       - 'frontend/**'
       - '.github/workflows/azure_frontend.yml'

@@ -16,7 +16,7 @@ jobs:
       
     defaults:  # Add this line
       run:  # Add this line
-        working-directory: ./backend  # Add this line
+        working-directory: ./backend  
             
     steps:
       - uses: actions/checkout@v4
@@ -44,8 +44,8 @@ jobs:
         with:
           name: python-app
           path: |
-            ./backend/release.zip # Change this line
-            ./backend/!venv/ # Change this line
+            ./backend/release.zip 
+            ./backend/!venv/
 
   deploy:
     runs-on: ubuntu-latest
